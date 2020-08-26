@@ -4,7 +4,7 @@ Laravel 7 Starter App & admin LTE 3
 
 ## Demo
 
-- <a href="http://demo.isengoding.my.id" target="_blank">Demo</a>
+- <a href="http://demo.isengoding.my.id" target="blank">Demo</a>
 
 ## Installasi
 - Download repository dan ekstrak atau clone repository
