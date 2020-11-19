@@ -41,7 +41,7 @@ class ProdukImport implements ToModel, WithHeadingRow
             'harga_beli' => $row['harga_beli'],
             'harga_jual' => $row['harga_jual'],
             'deskripsi' => $row['deskripsi'],
-            'gambar' => 'produk/produk_default.jpg',
+            'gambar' => 'produk_default.jpg',
         ]);
 
         return $produk;

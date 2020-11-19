@@ -144,10 +144,13 @@ class UserController extends Controller
      */
     public function destroy(User $user)
     {
-        
-        $user->delete();
-
-        session()->flash('success', "Data User : $user->name Berhasil Dihapus");
+        if($user->hasRole('admin')){
+            session()->flash('error', "Data dengan Role Admin tidak bisa dihapus!");
+        }else{
+            $user->delete();
+    
+            session()->flash('success', "Data User : $user->name Berhasil Dihapus");
+        }
 
         return redirect(route('users.index'));
     }

@@ -182,7 +182,7 @@
                       <label for="import_produk">Import File</label>
                       <input type="file" class="form-control-file" name="import_produk" id="import_produk" placeholder="" aria-describedby="fileHelpId" required>
                       <small id="fileHelpId" class="form-text text-muted">Tipe file : xls, xlsx</small>
-                      <small id="fileHelpId" class="form-text text-muted">Pastikan file upload sesuai format. <br> <a href="{{ url('storage/template/produk_template.xlsx') }}">Download contoh format file xlsx <i class="fas fa-download ml-1   "></i></a></small>
+                      <small id="fileHelpId" class="form-text text-muted">Pastikan file upload sesuai format. <br> <a href="{{ url('template/produk_template.xlsx') }}">Download contoh format file xlsx <i class="fas fa-download ml-1   "></i></a></small>
                     </div>
                 
             </div>
